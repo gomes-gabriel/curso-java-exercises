@@ -1,1 +1,1 @@
-# curso-java-exercises
+# Exercícios do Curso de Java
