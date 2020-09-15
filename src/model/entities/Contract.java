@@ -49,7 +49,11 @@ public class Contract {
 		return installments;
 	}
 
-	public void setInstallments(List<Installments> installments) {
-		this.installments = installments;
+	public void addInstallment(Installments installment) {
+		installments.add(installment);
+	}
+
+	public void removeInstallment(Installments installment) {
+		installments.remove(installment);
 	}
 }
